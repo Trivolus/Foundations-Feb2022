@@ -15,7 +15,9 @@
             <a href="rabbits.html">Rabbits</a>
             <a href="birds.html">Birds</a>
         </nav>
+        
         <p class="content">This is Code Challenge #1</p>
+        
     </body>
 
 </html>
