@@ -1,0 +1,16 @@
+html {
+  font-size: 16pt;
+}
+
+nav {
+  background-color: blue;
+}
+a {
+  color: cyan;
+  margin: 10px;
+  font-size: 20px;
+}
+.content {
+  font-size: 14pt;
+  font-style: italic;
+}
