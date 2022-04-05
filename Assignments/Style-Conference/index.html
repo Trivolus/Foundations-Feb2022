@@ -8,23 +8,20 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-
-
-    <header>
-        
+    <header class="primary-header container group">
         <h1 class="logo">
             <a href="index.html">
                 <img src="assets/images/logo-1.png" alt="logo">
             </a>
         </h1>
 
-        <h3>August 24th - 25th Omaha, NE</h3>
+        <h3 class="tagline">August 24th - 25th Omaha, NE</h3>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="speakers.html">Speakers</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="venue.html">Venue</a>
+        <nav class="nav primary-nav">
+                <a href="index.html">Home</a>
+                <a href="speakers.html">Speakers</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="venue.html">Venue</a>
         </nav>
     </header>
 
@@ -39,40 +36,55 @@
 
 
     <!--TEASER SECTION-->
-    <section>
+    <section class="row">
+        <div class="grid">
+        <!--Container for the three child section tags-->
 
-        <section class="container">
+        <!--Speakers-->
+
+        <section class="col-1-3">
             <a href="speakers.html">
                 <h5>Speakers</h5>
                 <h3>World-Class Speakers</h3>
             </a>
             <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
-        </section>
-
-        <section class="container">
+        </section><!--
+            
+            Schedule (this comment removes the extra space for inline block positioning)
+        
+        --><section class="col-1-3">
             <a href="schedule.html">
             <h5>Schedule</h5>
-                <h3></h3>
+                <h3>Style Conference Tracks</h3>
             </a>
 
-            <p></p>
-        </section>
+            <p>Dive deep into these exciting talks, tech sessions, and speaker stories as they will sure to leave you inspired.</p>
+        </section><!--
 
-        <section class="container">
+            Venue (this comment removes the extra space for inline block positioning)
+
+        --><section class="col-1-3">
             <a href="venue.html">
             <h5>Venue</h5>
-                <h3></h3>
+                <h3>Embassy Suites</h3>
             </a>
 
-            <p></p>
-
+            <p>The Embassy Suites Conference Center will provide a spacious, professionally appealing conference venue.</p>
         </section>
+        <!--This comment removes the extra space for inline block positioning
 
-
+        --></div>
     </section>
 
     <!--FOOTER-->
-    <footer>
+    <footer class="primary-footer container group">
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="speakers.html">Speakers</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="venue.html">Venue</a>
+        </nav>
+        
         <small>&copy; Developer Style Conference</small>
     </footer>
 
